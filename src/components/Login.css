@@ -1,0 +1,50 @@
+/* Center the login form on the page */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure the login form takes up full width within the container */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+/* Style the submit button */
+.login-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Center and style the error message */
+.login-error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
