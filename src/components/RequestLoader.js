@@ -75,7 +75,7 @@ const RequestLoader = () => {
       }
     } catch (error) {
       console.error('Error:', error.message || error);
-      setError('Your order has been completed successfully! Someone will reach out to you about your order soon.');
+      setError('Your request could not be submitted. Please try again later.');
     }
   };
   
